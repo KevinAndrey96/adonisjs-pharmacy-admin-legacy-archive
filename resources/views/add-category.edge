@@ -26,7 +26,7 @@
 								<div class="panel-wrapper collapse in">
 									<div class="panel-body">
 										<div class="form-wrap">
-										<form action="/add-category" method="POST">
+										<form action="{{ route('CategoryController.create') }}" method="POST" enctype="multipart/form-data">
 											{{ csrfField() }}
 												<h6 class="txt-dark capitalize-font"><i class="zmdi zmdi-info-outline mr-10"></i>Categorias</h6>
 												<hr class="light-grey-hr"/>
