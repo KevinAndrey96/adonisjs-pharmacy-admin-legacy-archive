@@ -12,7 +12,7 @@ class AddGatewayToOrderSchema extends Schema {
 
   down () {
     this.table('orders', (table) => {
-      table.string('gateway')
+      table.dropColumn('gateway')
     })
   }
 }
