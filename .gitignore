@@ -1,1 +1,6 @@
 .env
+
+# Dependencies, build output and local files
+node_modules/
+tmp/
+.DS_Store
